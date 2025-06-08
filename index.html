@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | QR code component</title>
@@ -31,39 +33,45 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      height: 500px;
+      height: 499px;
       width: 320px; 
       border-radius: 20px;
-      padding: 16px 0;
     }
     .deep-container {
+      text-align: center;
+      padding: 0px 16px;
+      width: 288px;
+      height: 131px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      text-align: center;
-      padding: 0 16px;
-    }
-    p {
-      font-family: outfit-regular;
-      font-size: 15px;
-    }
-    h5{
-      font-family: outfit-bold;
-      font-size: 22px;
+      span {
+        font-family: "Outfit", sans-serif;
+        font-size: 15px;
+        text-align: center;
+        width: 256px;
+        color:hsl(216, 15%, 48%);
+      }
+      p{
+        font-family: "Outfit", sans-serif;
+        font-weight: 500;
+        width: 256px;
+        font-size: 22px;
+      }
     }
   </style>
 </head>
 <body>
 <div class="outer-container">
   <div class="inner-container">
-    <img src="images/image-qr-code.png" alt="qr-code" style="width: 288px;height: 288px;border-radius: 15px;">
+    <img src="images/image-qr-code.png" alt="qr-code" style="width: 288px;height: 288px;border-radius: 15px; margin-top: 16px;">
     <div class="deep-container">
-    <h5>
-      Improve your front-end skills by building projects
-    </h5>
     <p>
-      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      Improve your front-end skills by building projects
     </p>
+    <span>
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </span>
     </div>
 </div>
 </div>
