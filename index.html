@@ -30,29 +30,41 @@
       background-color: white;
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
-      height: 260px;
-      width: 170px; 
-      border-radius: 8px;
-      padding: 5px;
+      height: 500px;
+      width: 320px; 
+      border-radius: 20px;
+      padding: 16px 0;
+    }
+    .deep-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       text-align: center;
+      padding: 0 16px;
     }
     p {
-      font-size: 8px;
+      font-family: outfit-regular;
+      font-size: 15px;
+    }
+    h5{
+      font-family: outfit-bold;
+      font-size: 22px;
     }
   </style>
 </head>
 <body>
 <div class="outer-container">
   <div class="inner-container">
-    <img src="images/image-qr-code.png" alt="qr-code" style="width: 90%;height: 55%;border-radius: 8px;">
+    <img src="images/image-qr-code.png" alt="qr-code" style="width: 288px;height: 288px;border-radius: 15px;">
+    <div class="deep-container">
     <h5>
       Improve your front-end skills by building projects
     </h5>
     <p>
       Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
     </p>
+    </div>
 </div>
 </div>
 </body>
