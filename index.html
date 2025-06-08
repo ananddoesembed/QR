@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" role="">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -12,8 +12,6 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
     body{
       margin: 0px;
       background-color: #D5E1EF !important;
@@ -59,12 +57,18 @@
         font-size: 22px;
       }
     }
+    .qr-image {
+      width: 288px;
+      height: 288px;
+      border-radius: 15px;
+      margin-top: 16px;
+    }
   </style>
 </head>
 <body>
-<div class="outer-container">
+<div class="outer-container" role="main">
   <div class="inner-container">
-    <img src="images/image-qr-code.png" alt="qr-code" style="width: 288px;height: 288px;border-radius: 15px; margin-top: 16px;">
+    <img src="images/image-qr-code.png" alt="qr-code" class="qr-image">
     <div class="deep-container">
     <p>
       Improve your front-end skills by building projects
