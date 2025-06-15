@@ -41,11 +41,11 @@ body{
       font-size: 0.93rem;
       text-align: center;
       color: var(--Slate-500);
-      letter-spacing: 0.0125px;
+      letter-spacing: 0.0125rem;
       line-height: 140%;
       width: 16rem;
     }
-    p{
+    h1{
         color:var(--Slate-900);
       font-family: "Outfit", sans-serif;
       font-weight: bold;
